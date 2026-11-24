@@ -1,0 +1,27 @@
+# Materiais de briefing e arquivos de apoio não entram no repositório
+informacoes-projeto/
+
+# Dependências e builds futuros
+node_modules/
+dist/
+build/
+.parcel-cache/
+.vite/
+.next/
+coverage/
+
+# Arquivos locais, temporários e do sistema
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+
+# Configurações pessoais de editores
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+.idea/
