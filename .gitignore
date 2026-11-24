@@ -3,6 +3,7 @@ informacoes-projeto/
 
 # Dependências e builds futuros
 node_modules/
+data/
 dist/
 build/
 .parcel-cache/
