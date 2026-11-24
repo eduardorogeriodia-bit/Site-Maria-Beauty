@@ -1,5 +1,6 @@
 # Materiais de briefing e arquivos de apoio não entram no repositório
 informacoes-projeto/
+data/
 
 # Dependências e builds futuros
 node_modules/
