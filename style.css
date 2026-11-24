@@ -115,3 +115,17 @@ html[data-theme="dark"]{--ink:#f5e9e5;--muted:#c5b4b2;--cream:#211a1c;--blush:#4
 .footer-social:hover{color:#f2b9b6!important;transform:translateY(-2px)}
 .footer-social svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 @media(max-width:560px){.social-floats{right:16px;bottom:16px;gap:10px}.social-float{width:46px;height:46px}.social-float svg{width:22px;height:22px}}
+.pricing{background:var(--cream)}
+.price-groups{display:grid;grid-template-columns:1.15fr .85fr;align-items:start;gap:24px;margin-top:48px}
+.price-group{padding:clamp(22px,3vw,34px);background:var(--white);border:1px solid var(--line)}
+.price-group h3{margin:0 0 18px;font:500 25px 'Playfair Display',serif}
+.price-table{width:100%;border-collapse:collapse;font-size:13px}
+.price-table th,.price-table td{padding:13px 4px;border-bottom:1px solid var(--line)}
+.price-table th{color:var(--muted);font-size:9px;font-weight:600;letter-spacing:1.4px;text-align:left;text-transform:uppercase}
+.price-table th:last-child,.price-table td:last-child{text-align:right;white-space:nowrap}
+.price-table td:last-child{font-weight:600;color:var(--rose)}
+.price-table tbody tr:last-child td{border-bottom:0}
+.price-cta{margin-top:24px}
+.price-note{margin:18px 0 0;color:var(--muted);font-size:11px;line-height:1.6}
+@media(max-width:800px){.price-groups{grid-template-columns:1fr;gap:16px;margin-top:34px}}
+@media(max-width:560px){.price-group{padding:20px 17px}.price-group h3{font-size:22px}.price-table{font-size:12px}.price-table th,.price-table td{padding:12px 3px}.price-note{font-size:10px}}
